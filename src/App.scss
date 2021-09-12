@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arvo:wght@400;700&display=swap");
+
+* {
+  background-color: #002741;
+  color: #f8f1ff;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  border: 5px red;
+  p {
+    font-family: "Alfa Slab One", cursive;
+    text-decoration: none;
+    font-size: 5rem;
+    margin: 1rem auto 0rem auto;
+  }
+  h3 {
+    font-family: "Arvo", serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+nav {
+  border-top: 0.1rem solid grey;
+  width: 90%;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    color: #f8f1ff;
+    margin-top: 0.1rem;
+    text-decoration: none;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.actions {
+  margin: 5rem;
+}

@@ -1,0 +1,24 @@
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  width: 15rem;
+  height: 4.5rem;
+  border-radius: 1.3rem;
+  background: linear-gradient(45deg, #00233b, #002a46);
+  box-shadow: 3px -3px 6px #002137, -3px 3px 6px #002d4b;
+}
+
+.action:hover {
+  border-radius: 1.3rem;
+  background: linear-gradient(145deg, #002a46, #00233b);
+  box-shadow: 4px 4px 7px #002137, -4px -4px 7px #002d4b;
+}
+
+.action:active {
+  border-radius: 1.3rem;
+  background: linear-gradient(145deg, #00233b, #002a46);
+  box-shadow: 4px 4px 7px #002137, -4px -4px 7px #002d4b;
+}
