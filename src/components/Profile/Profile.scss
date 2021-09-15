@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  width: 15rem;
+  height: 22rem;
+  border-radius: 1.3rem;
+  background: linear-gradient(45deg, #00233b, #002a46);
+  box-shadow: 3px -3px 6px #002137, -3px 3px 6px #002d4b;
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .role {
+    margin-bottom: 0.8rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    border-radius: 1.3rem;
+    background: linear-gradient(145deg, #002a46, #00233b);
+    box-shadow: 4px 4px 7px #002137, -4px -4px 7px #002d4b;
+  }
+
+  &:active {
+    border-radius: 1.3rem;
+    background: linear-gradient(145deg, #00233b, #002a46);
+    box-shadow: 4px 4px 7px #002137, -4px -4px 7px #002d4b;
+  }
+}

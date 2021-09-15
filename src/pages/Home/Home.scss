@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.actions {
+  margin: 5rem;
+}
+.feed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  img {
+    max-width: 90%;
+    height: 90%;
+  }
+}
+
+Webcam {
+  max-width: 90%;
+  height: 90%;
+}

@@ -2,7 +2,7 @@ import "./Action.scss";
 
 function Action(props) {
   return (
-    <div className="action">
+    <div className="action" onClick={props.onClick}>
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"
